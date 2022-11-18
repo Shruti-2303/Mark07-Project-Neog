@@ -12,13 +12,13 @@ body{
 textarea{
     display: block;
     width: 80%;
-    height: 10vh;
+    height: 13vh;
     margin: 1rem;
     padding: 1rem;
     font-family: inherit;
 }
 #btn-translate{
-    margin: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
     padding: 1rem;
     background-color: var(--primary-color);
     font-family: inherit;
@@ -30,7 +30,7 @@ textarea{
 #output{
     border: 1px solid black;
     width: 80%;
-    height: 10vh;
+    height: 13vh;
     margin: 1rem;
     padding: 1rem;
 }
@@ -60,6 +60,10 @@ textarea{
     align-items: center;
 }
 
+.container-center h2{
+    margin-bottom: 0.5rem;
+}
+
 .footer{
     color: white ;
     background-color: var(--primary-color);
@@ -69,7 +73,7 @@ textarea{
     text-align: center;
     margin: 0rem 1rem;
     margin-bottom: 1rem;
-    
+    width: 80%;
 }
 
 .footer h2{
